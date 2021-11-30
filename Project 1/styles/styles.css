@@ -1,0 +1,155 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: #fdfdfd;
+    color: #654062;
+    margin: 0;
+    text-align: center;
+  }
+  
+
+  h1 {
+      font-size: 50px;
+    margin: 0 auto;
+    color: #302929;
+    font-weight: 700;
+    font-family: 'Poppins';
+  }
+  
+  h2 {
+    font-weight: 1000;
+    font-family: 'Poppins', sans-serif;
+    color: #555555;
+  }
+  
+  h3 {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #555555;
+  }
+
+  *{
+      padding: 0%;
+      margin: 0%;
+  }
+
+  .top-container{
+      position: static;
+      /* background-color: #998a8a; */
+      height: 100px;
+      width: 100%;
+      margin-bottom: 200px;
+  }
+  
+  .logo{
+    position:absolute;
+    top: 60px;
+    left: 50px;
+  }
+
+
+.button-1 {
+    background-color:#f2f2f2;
+	border-radius:28px;
+	border:1px solid #f26ac5;
+	display:inline-block;
+	cursor:pointer;
+	color:#f26ac5;
+	font-size:15px;
+    font-family: 'Open Sans', sans-serif;
+	padding:6px 30px;
+	text-decoration: currentColor;
+	text-shadow:0px 0px 0px #f26ac5;
+    top: 60px;
+    right: 50px;
+    position: absolute;
+  }
+  .Button-1:hover {
+	background-color:#ffffff;
+}
+.Button-1:active {
+	position:relative;
+	top:1px;
+}
+
+
+  .second-container{
+      position: static;
+      height: 250px;
+      width: 100%;
+      /* background-color: cornflowerblue; */
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+
+  .communities{
+      display: inline-block;
+      text-align: left;
+      position: absolute;
+      left: 300px;
+  }
+
+  .messages{
+      display: inline-block;
+      text-align: left;
+      position: absolute;
+      right: 300px;
+  }
+
+  .third-container{
+    /* background-color: cyan; */
+    width: 55%;
+    margin: 100px auto 100px auto;
+    padding: 100px auto 100px auto;
+    text-align: left;
+  }
+  .grow-together{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+  }
+
+  
+  .fourth-container{
+    /* background-color: cyan; */
+    width: 55%;
+    margin: 100px auto 100px auto;
+    padding: 100px auto 100px auto;
+    text-align: left;
+  }
+  .img-conversations
+{
+    width: 30%;
+    float: left;
+    margin-right: 30px; 
+}
+
+
+.fifth-container{
+    /* background-color: cyan; */
+    width: 55%;
+    margin: 100px auto 100px auto;
+    padding: 100px auto 100px auto;
+    text-align: left;
+}
+.users{
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.button-3{
+    display: block;
+    margin-top: 75px;
+    margin-bottom: 150px;
+
+}
+
+.sixth-container{
+    position: absolute;
+    background-color: rgba(0,0,0,0.87);
+    height: 500px;
+    width: 100%;
+    margin-top: 0%;
+}
